@@ -1,0 +1,92 @@
+*{
+    
+    
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    width: 1366px;
+    height: 768px;
+    
+}
+.nav{
+    display: flex; 
+    justify-content: space-between;
+    
+}
+.navbar{
+    margin-top: 45px;
+    margin-left: 103px;
+}
+a{
+    font-family: Manrope;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.link{
+    display: flex;
+    gap: 90px;
+    margin-top: 48px ;
+    margin-right: 90pxpx; 
+}
+.men{
+    position: relative;
+    top: 45px;
+    right: 50px;
+    left: 50px;
+    position: relative; 
+}
+
+
+.comic{
+    
+    color: white;
+   
+
+}
+p{
+    font-family: Manrope;
+    font-size: 16px;
+    margin-top: 37px;
+    margin-left: 103px;
+    width: 563px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-family: 'Manrope', sans-serif;
+}
+h1{
+    font-family: go;
+    font-size: 80px;
+    margin-top: 224px;
+    margin-left: 104px;
+    width: 630px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-family: 'Manrope', sans-serif;
+    
+}
+button{
+    font-family: Lato;
+    font-size: 14px;
+    margin-top: 55px;
+    margin-left: 103px;
+    width: 132px;
+    height: 43px;
+    font-family: 'Lato', sans-serif;
+    cursor:pointer;
+
+}
+#mens{
+    display: flex;
+   
+}
+.pictur{
+    width: 200px;
+    height: 200px;
+}
