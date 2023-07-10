@@ -1,22 +1,18 @@
 *{
-    
-    
-  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+.backk{
+   
     background-color: black;
     width: 1366px;
     height: 768px;
-    
 }
 .nav{
     display: flex; 
     justify-content: space-between;
-    
 }
 .navbar{
     margin-top: 45px;
@@ -33,7 +29,7 @@ a{
     display: flex;
     gap: 90px;
     margin-top: 48px ;
-    margin-right: 90pxpx; 
+    margin-right: 90px; 
 }
 .men{
     position: relative;
@@ -42,16 +38,10 @@ a{
     left: 50px;
     position: relative; 
 }
-
-
 .comic{
-    
     color: white;
-   
-
 }
 p{
-    font-family: Manrope;
     font-size: 16px;
     margin-top: 37px;
     margin-left: 103px;
@@ -61,7 +51,6 @@ p{
     font-family: 'Manrope', sans-serif;
 }
 h1{
-    font-family: go;
     font-size: 80px;
     margin-top: 224px;
     margin-left: 104px;
@@ -69,10 +58,8 @@ h1{
     flex-direction: column;
     flex-shrink: 0;
     font-family: 'Manrope', sans-serif;
-    
 }
 button{
-    font-family: Lato;
     font-size: 14px;
     margin-top: 55px;
     margin-left: 103px;
@@ -80,13 +67,17 @@ button{
     height: 43px;
     font-family: 'Lato', sans-serif;
     cursor:pointer;
-
 }
 #mens{
-    display: flex;
    
+    width: 1018px;
+    height: 679px;
+    background-repeat: no-repeat;
+    display: flex;
 }
-.pictur{
-    width: 200px;
-    height: 200px;
-}
+
+ .backk{
+    background-image: url("./images/man.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+ }
